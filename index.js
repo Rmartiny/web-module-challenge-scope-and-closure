@@ -68,7 +68,7 @@ NOTE: This will be a callback function for the tasks below
 function inning(max,min){
    return Math.random* (max-min) + min;
 }
-console.log (inning(1,2));
+console.log (inning(2,1));
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
