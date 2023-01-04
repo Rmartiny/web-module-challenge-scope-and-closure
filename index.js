@@ -89,12 +89,12 @@ function finalScore(callback,number){
   let homescore=0;
   let awayscore=0;
   for (let i=0;i<inning; i++){
-    homescore=homescore +inningCB();
-    awayscore= awayscore +inningCB();
+    homescore=homescore +inning();
+    awayscore= awayscore +inning();
   }
-  return(
+  return{
     home :homescore,
-    away: awayscore)
+    away: awayscore}
 
 }
 console.log (finalScore(inning,9))
