@@ -86,10 +86,24 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(/*Code Here*/){
-  /*Code Here*/
-}
+function finalScore(inning, number){
+  const totalscore=[];
+  let Homescore=0;
+  let awayscore=0;
 
+  for (let i=0; i<9; i++){
+
+    const curentscore= inning(number)
+    Homescore=Homescore+ curentscore.Home
+    awayscore= awayscore +curentscore.aways
+    totalscore.push
+  }
+return totalscore
+
+
+
+}
+console.log(finalScore(inning,9))
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
 Use the getInningScore() function below to do the following:
