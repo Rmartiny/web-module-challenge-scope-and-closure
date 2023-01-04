@@ -87,20 +87,14 @@ Use the finalScore function below to do the following:
 */ 
 
 function finalScore(callback, number){
-  const totalscore=[];
-  let Homescore=0;
-  let awayscore=0;
+  const totalscoreobj={};
+  
+  function home(callback,number){ totalscoreobj.home= home
 
-  for (let i=0; i<9; i++){
+    function away(callback,number){totalscoreobj.away=away} return away
 
-    const curentscore= inning(number)
-    Homescore=Homescore+ curentscore.Home
-    awayscore= awayscore +curentscore.aways
-    totalscore.push
-  }
-return totalscore
-
-
+}return home
+return totalscoreobj
 
 }
 console.log(finalScore(inning,9))
