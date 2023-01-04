@@ -93,10 +93,10 @@ function finalScore(callback, number){
 
     function away(callback,number){totalscoreobj.away=away} return away
 
-}return home
+}return home}
 return totalscoreobj
 
-}
+
 console.log(finalScore(inning,9))
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
