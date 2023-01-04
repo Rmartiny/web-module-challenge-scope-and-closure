@@ -66,8 +66,8 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(max,min){
-   let points= Math.random()* (max-min) + min;
-    return(Math.round(points))
+   let points= (Math.round(Math.random()* (max-min) + min));
+    return points
 }
 console.log (inning(2,0));
 
