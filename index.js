@@ -67,9 +67,9 @@ NOTE: This will be a callback function for the tasks below
 
 function inning(max,min){
    let points= Math.random()* (max-min) + min;
-    return points.round
+    return(Math.round(points))
 }
-console.log (inning(2,1));
+console.log (inning(2,0));
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
