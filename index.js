@@ -65,11 +65,11 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(min,max){
-   let points= (Math.round(Math.random()* (max-min) + min));
+function inning(){
+   let points= (Math.round(Math.random()*2));
     return points
 }
-console.log (inning(0,2));
+console.log (inning);
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
