@@ -68,7 +68,7 @@ NOTE: This will be a callback function for the tasks below
 function inning(){
  return Math.floor(Math.random()* Math.floor(3))
 }
-console.log (inning());
+
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
@@ -85,9 +85,19 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(){
-}
+function finalScore(callback,number){
+  let homescore=0:
+  let awayscore=0:
+  for (let i=0;i<inning; i++){
+    homescore=homescore +inningCB();
+    awayscore= awayscore +inningCB();
+  }
+  return(
+    home :homescore,
+    away: awayscore)
 
+}
+console.log (finalScore(inning,9))
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
 Use the getInningScore() function below to do the following:
   1. Receive a callback function in a parameter - you will pass in the inning function from task 2 as your argument 
