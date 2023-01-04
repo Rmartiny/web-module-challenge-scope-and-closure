@@ -86,8 +86,8 @@ Use the finalScore function below to do the following:
 */ 
 
 function finalScore(callback,number){
-  let homescore=0:
-  let awayscore=0:
+  let homescore=0;
+  let awayscore=0;
   for (let i=0;i<inning; i++){
     homescore=homescore +inningCB();
     awayscore= awayscore +inningCB();
