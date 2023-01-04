@@ -66,7 +66,7 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(max,min){
-   return Math.random* (max-min) + min;
+   return Math.random()* (max-min) + min;
 }
 console.log (inning(2,1));
 
