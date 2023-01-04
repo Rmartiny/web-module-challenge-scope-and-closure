@@ -30,11 +30,12 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+   counter1 and counter2 are similar in function but they both have independent memorys and will count seperate from one another.
   2. Which of the two uses a closure? How can you tell?
+  counter1 has the closure because it holds the entire function in its code while counter2 its just reusing the function.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+     counter2 be better?  counter1 would be good of a single item to count where as if you need to start a secound count for said item that would be good for counter2
 */
 
 // counter1 code
@@ -64,9 +65,10 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(/*Code Here*/){
-    /*Code Here*/
+function inning(max,min){
+   return Math.random* (max-min) + min;
 }
+console.log (inning(1,2));
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
