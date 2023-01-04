@@ -93,8 +93,8 @@ function finalScore(callback,number){
     awayscore= awayscore +inning();
   }
   return{
-    home :homescore,
-    away: awayscore}
+    Home : homescore,
+    Away : awayscore}
 
 }
 console.log (finalScore(inning,9))
